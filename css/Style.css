@@ -1,12 +1,11 @@
 /* /* Header Style * */
+* {
+    margin: 0;
+}
 
 header {
     background: rgba(255, 144, 14, 0.1);
-    position: absolute;
-    width: 1920px;
-    height: 1322px;
-    left: 0px;
-    top: 0px;
+    padding: 20px;
 }
 
 .navigation {
@@ -31,4 +30,87 @@ header {
     color: rgba(66, 66, 66, 1);
     font-weight: 500;
     font-size: 18px;
+}
+
+/* banner Styles */
+.banner-header {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-title {
+    text-align: center;
+}
+
+.banner-title h1 {
+    color: #131313;
+    font-weight: 700;
+    font-size: 60px;
+    font-family: 'Work Sans';
+    font-style: normal;
+
+}
+
+.banner-title p {
+    color: #727272;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.btn {
+    background: #FF900E;
+    border-radius: 8px;
+    width: 180px;
+    height: 64px;
+    border: none;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.banner-photo {
+    margin-top: 70px;
+}
+
+/* main sections styles */
+.features {
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 48px;
+}
+
+.image-style {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.text-style h4 {
+    color: #727272;
+    font-weight: 500;
+    font-size: 45px;
+}
+
+#spans {
+    color: #131313;
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.text-style span {
+    color: #FF900E;
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.text-style p {
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
 }
