@@ -114,3 +114,197 @@ header {
     font-size: 16px;
     line-height: 26px;
 }
+
+.card-shadow {
+    margin-top: 130px;
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+}
+
+.descriptions h3 {
+    color: #131313;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    border-left: 5px solid #FF900E;
+
+}
+
+.descriptions p {
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 22px;
+    line-height: 26px;
+}
+
+.shadow-style {
+    margin-top: 50px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.shadow-style h5 {
+    color: #131313;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.shadow-style p {
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.experience-bnt {
+    position: absolute;
+    width: 242px;
+    height: 130px;
+    left: 880px;
+    top: 3104px;
+    background: #FF900E;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    font-size: 25px;
+}
+
+.experience-bnt span {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 70px;
+}
+
+/* four Card Style */
+.four {
+    margin-top: 200px;
+}
+
+.text {
+    margin-left: 240px;
+}
+
+.text h2 {
+    color: #131313;
+    font-size: 45px;
+    font-weight: 700;
+    margin-top: 24px;
+}
+
+.text p {
+    color: #727272;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.four-card {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 64px;
+}
+
+.card-style {
+    text-align: center;
+    border: 1px solid #FF900E;
+    box-sizing: border-box;
+    border-radius: 8px;
+    /* transform: rotate(90deg); */
+    padding: 20px;
+    width: 241.83px;
+    height: 190.83px;
+    left: 897.92px;
+    top: 3663.08px;
+}
+
+.card-style h4 {
+    color: #424242;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 53px;
+}
+
+.card-style p {
+    color: #727272;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+.Our-Sponspors {
+    margin-top: 180.08px;
+}
+
+.sponspors-text {
+    text-align: center;
+}
+
+.sponspors-text h3 {
+    color: #131313;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+}
+
+.sponspors-text p {
+    color: #727272;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+/* company logo style */
+.logo-item {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.logos {
+    margin: 50px;
+}
+
+/* Footer */
+#footer{
+    
+    margin-bottom: 10%;
+}
+.last-part {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1440px;
+    height: 100px;
+    left: 240px;
+
+    position: absolute;
+    background: #FFF4E7;
+    border-radius: 8px;
+}
+
+.last-part p {
+    color: #424242;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+
+    text-align: center;
+
+}
