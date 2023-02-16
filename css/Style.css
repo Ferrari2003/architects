@@ -70,6 +70,10 @@ header {
     font-size: 20px;
     margin-top: 30px;
 }
+.btn:hover{
+    background-color: black;
+    transition: ease-in-out 1s;
+}
 
 .banner-photo {
     margin-top: 70px;
@@ -185,6 +189,7 @@ header {
     margin-top: 200px;
 }
 
+
 .text {
     margin-left: 240px;
 }
@@ -224,6 +229,14 @@ header {
     height: 190.83px;
     left: 897.92px;
     top: 3663.08px;
+    transition: 1s ease;
+    
+}
+
+.card-style:hover{
+    width: 200px;
+    height: 200px;
+    transform: rotate(180deg);
 }
 
 .card-style h4 {
@@ -279,7 +292,85 @@ header {
     margin: 50px;
 }
 
+
+/* contact info style  */
+.heading{
+    text-align: center;
+    font-size: 25px;
+}
+.heading hr{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.contact .row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+   
+}
+
+.contact .row .contact{
+    flex: 1 1 30rem;
+    padding: 4rem;
+    padding-bottom: 0;
+}
+
+.contact .row form{
+    flex: 1 1 45rem;
+    padding: 2rem;
+    margin: 2rem;
+    margin-bottom: 4rem;
+}
+
+.contact .row form .box{
+    padding: 1rem;
+    margin: 1rem 0;
+    background: #3333;
+    color: white;
+    text-transform: none;
+    font-size: 1.7rem;
+    width: 100%;
+    border: none;
+}
+
+.contact .row form .box::placeholder{
+    text-transform: capitalize;
+}
+
+.contact .row form .message{
+    height: 15rem;
+    resize: none;
+}
+
+.contact .row .title{
+    text-transform:  uppercase;
+    color: black;
+    font-size: 3rem;
+    padding-bottom: 2rem;
+}
+
+
+.contact .row .contact .info h3{
+    display: flex;
+    align-items: center;
+    font-size:  1rem;
+    color: #727272;
+    padding: 1rem;
+    font-weight: normal;
+}
+
+.contact .row .contact .info h3 i {
+    padding-right: 1rem;
+    color:var(--yellow)
+}
+
+
 /* Footer */
+
+
+
 #footer{
     
     margin-bottom: 10%;
